@@ -1,0 +1,104 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+header a{
+  color: white;
+}
+header a:hover{
+  text-decoration: none;
+ justify-content: first baseline;
+}
+
+header {
+  height: 50px;
+  background-color: #007bff;
+}
+
+
+.circle {
+  width: 5%;
+  align-self: center;
+  font-size: 30px;
+  color: orangered !important;
+  cursor: pointer;
+  border: 2px solid orangered;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+
+.card {
+  width: 300px;
+  margin:10px;
+}
+
+.photo, .card-content {
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 990px) {
+  .circle {
+    width: 40px;
+    height: 40px;
+    font-size: 23px;
+  }
+
+  .card {
+    width: 200px;
+  }
+
+  .photo, .card-content {
+    margin: 0 auto;
+  }
+}
+
+
+
+@media only screen and (max-width: 767px) {
+  .circle {
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+  }
+
+  .card {
+    width: 240px;
+  }
+
+  .photo, .card-content {
+    margin: 0 auto;
+  }
+}
