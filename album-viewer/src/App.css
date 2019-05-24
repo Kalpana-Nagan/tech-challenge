@@ -27,6 +27,8 @@
   color: #61dafb;
 }
 
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -70,6 +72,7 @@ header{
 
 .photo, .card-content {
   margin: 0 auto;
+  margin-left: 25px !important;
 }
 
 @media only screen and (max-width: 990px) {
@@ -85,6 +88,7 @@ header{
 
   .photo, .card-content {
     margin: 0 auto;
+   
   }
 }
 
