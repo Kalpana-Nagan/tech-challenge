@@ -29,15 +29,13 @@ export default class App extends React.Component {
   return (
     <div>
       <header className="header">
-        <nav className="container navbar navbar-default navbar-fixed-top">
-            <a href="/"> Photo Viewer </a>
-        </nav>
+      Photo Viewer
       </header>
       <div className="container">
       <div className="form-group">
-        <label htmlFor="user">Select User</label>
+        <label htmlFor="user"></label>
         <select className="form-control" onChange={this.selectUser.bind(this)}>
-            <option disabled selected>Please select</option>
+            <option disabled selected>Please select User</option>
             {
                 this.state.users.map((value,index)=>{
                     return <option key={index} value={value.id}>{value.name}</option>

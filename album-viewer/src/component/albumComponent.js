@@ -77,9 +77,9 @@ export default class Album extends Component{
                 return (album.userId===userId) });
                 
         return (
-            <div>
+            <div className="albumSelect">
             <select className="form-control" onChange={this.handleClick.bind(this)}>
-            <option disabled selected>Please select</option>
+            <option disabled selected>Please select album</option>
                 { selectedAlbums.map((album,index)=>{
                     return <option key={index} value={album.id}>{album.title}</option>}) }
             </select>
